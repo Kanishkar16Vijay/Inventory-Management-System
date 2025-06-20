@@ -1,0 +1,38 @@
+{
+ "chart_name": "Total Products Listed",
+ "chart_type": "Report",
+ "creation": "2025-06-19 17:00:43.863138",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-06-19 17:05:21.421045",
+ "modified_by": "Administrator",
+ "module": "Ecommerce Product Catalog",
+ "name": "Total Products Listed",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Total Products Listed",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "product_name",
+ "y_axis": [
+  {
+   "color": "#ED6396",
+   "y_field": "quantity"
+  },
+  {
+   "color": "#fc0505",
+   "y_field": "minimum_stock"
+  }
+ ]
+}
