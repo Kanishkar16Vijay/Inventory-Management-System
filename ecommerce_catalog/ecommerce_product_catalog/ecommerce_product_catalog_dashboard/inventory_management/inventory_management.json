@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Top Selling Products",
+   "width": "Full"
+  },
+  {
+   "chart": "Total Products Listed",
+   "width": "Full"
+  }
+ ],
+ "creation": "2025-06-19 16:43:27.073302",
+ "dashboard_name": "Inventory Management",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-06-23 16:28:20.881785",
+ "modified_by": "Administrator",
+ "module": "Ecommerce Product Catalog",
+ "name": "Inventory Management",
+ "owner": "Administrator"
+}
