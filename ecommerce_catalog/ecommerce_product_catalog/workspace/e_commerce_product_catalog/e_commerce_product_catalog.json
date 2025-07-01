@@ -1,0 +1,69 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"iRoN2XAyAv\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Categories</b></span>\",\"col\":12}},{\"id\":\"onkkwy66TE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Category\",\"col\":3}},{\"id\":\"Y5v9-ltrbk\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HYOy1xYLFn\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Products</span>\",\"col\":12}},{\"id\":\"R_YKhboTGZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Products\",\"col\":3}},{\"id\":\"-MVHkqqDPm\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iD69OOwmHW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Members</b></span>\",\"col\":12}},{\"id\":\"v_xz627vOj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Members\",\"col\":3}},{\"id\":\"U2115FGL5W\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xpeedcvmGW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Transactions</b></span>\",\"col\":12}},{\"id\":\"Iot827WrJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transactions\",\"col\":3}},{\"id\":\"MjgkDiJsUN\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_PNtt624Wq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dashboard</b></span>\",\"col\":12}},{\"id\":\"aRj7HGCHlK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Inventory Management\",\"col\":3}}]",
+ "creation": "2025-06-17 11:06:19.529635",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "retail",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "E-Commerce Product Catalog",
+ "links": [],
+ "modified": "2025-07-01 12:33:07.484208",
+ "modified_by": "Administrator",
+ "module": "Ecommerce Product Catalog",
+ "name": "E-Commerce Product Catalog",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Category",
+   "link_to": "Category",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Transactions",
+   "link_to": "Transactions",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Inventory Management",
+   "link_to": "Inventory Management",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Products",
+   "link_to": "Product",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Members",
+   "link_to": "Members",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "E-Commerce Product Catalog"
+}
