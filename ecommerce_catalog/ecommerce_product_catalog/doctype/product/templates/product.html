@@ -2,10 +2,10 @@
 {% block page_content %}
 
 <div class="py-20 row">
-    <div class="col-sm-2">
+    <div class="col-sm-2" style="margin-top: 50px;">
         <img alt="{{ title }}" src="{{ image }}" class="img-fluid"/>
     </div>
-    <div class="col">
+    <div class="col" style="margin-top: 1px;">
         <h1>{{ title }}</h1>
         <p class="lead">{{ category }}</p>
         <div class="mt-4">
@@ -18,7 +18,7 @@
         </div>
         <p>{{description}}</p>
     </div>
-    <div><button id="create-transaction" style="margin-top: 20px; background-color: white; color: grey; border-radius: 8px; border-color:grey; ">Create Transaction</button></div>
+    <div><button id="create-transaction" style="margin-top: 80px; background-color: white; color: grey; border-radius: 8px; border-color:grey; ">Create Transaction</button></div>
 </div>
 <script>
     document.getElementById('create-transaction').addEventListener('click', function () {

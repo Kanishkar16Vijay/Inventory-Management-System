@@ -8,6 +8,10 @@
   {
    "chart": "Total Products Listed",
    "width": "Full"
+  },
+  {
+   "chart": "Catalog Sales Report",
+   "width": "Full"
   }
  ],
  "creation": "2025-06-19 16:43:27.073302",
@@ -17,7 +21,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2025-06-23 16:28:20.881785",
+ "modified": "2025-06-30 11:48:41.787322",
  "modified_by": "Administrator",
  "module": "Ecommerce Product Catalog",
  "name": "Inventory Management",
