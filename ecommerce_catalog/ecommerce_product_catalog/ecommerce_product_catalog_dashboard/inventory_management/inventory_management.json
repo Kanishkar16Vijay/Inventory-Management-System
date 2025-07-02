@@ -2,15 +2,23 @@
  "cards": [],
  "charts": [
   {
-   "chart": "Top Selling Products",
-   "width": "Full"
+   "chart": "Daily Top Selling Report",
+   "width": "Half"
   },
   {
-   "chart": "Total Products Listed",
-   "width": "Full"
+   "chart": "Weeky Top Selling Product",
+   "width": "Half"
+  },
+  {
+   "chart": "Top Selling Products",
+   "width": "Half"
   },
   {
    "chart": "Catalog Sales Report",
+   "width": "Half"
+  },
+  {
+   "chart": "Total Products Listed",
    "width": "Full"
   }
  ],
@@ -21,7 +29,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2025-06-30 11:48:41.787322",
+ "modified": "2025-07-01 12:56:34.272414",
  "modified_by": "Administrator",
  "module": "Ecommerce Product Catalog",
  "name": "Inventory Management",

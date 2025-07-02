@@ -10,6 +10,7 @@
   "amended_from",
   "product",
   "member",
+  "payment_method",
   "column_break_fwud",
   "address",
   "quantity",
@@ -68,13 +69,19 @@
    "fieldname": "address",
    "fieldtype": "Small Text",
    "label": "Address"
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "label": "Payment Method",
+   "options": "COD\nUPI\nCard"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-06-19 10:58:14.422470",
+ "modified": "2025-07-01 17:31:47.197130",
  "modified_by": "Administrator",
  "module": "Ecommerce Product Catalog",
  "name": "Transactions",

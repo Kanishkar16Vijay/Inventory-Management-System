@@ -11,7 +11,9 @@
   "address",
   "column_break_eank",
   "email",
-  "phone"
+  "phone",
+  "section_break_teyp",
+  "cart_items"
  ],
  "fields": [
   {
@@ -45,12 +47,22 @@
    "fieldtype": "Small Text",
    "label": "Address",
    "reqd": 1
+  },
+  {
+   "fieldname": "cart_items",
+   "fieldtype": "Table",
+   "label": "Cart Items",
+   "options": "Cart Item"
+  },
+  {
+   "fieldname": "section_break_teyp",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-17 13:45:22.470289",
+ "modified": "2025-07-02 11:17:33.817036",
  "modified_by": "Administrator",
  "module": "Ecommerce Product Catalog",
  "name": "Members",
