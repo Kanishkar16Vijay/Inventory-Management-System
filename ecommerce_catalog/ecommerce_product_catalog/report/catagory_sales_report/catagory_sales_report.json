@@ -1,4 +1,5 @@
 {
+ "_liked_by": "[]",
  "add_total_row": 0,
  "add_translate_data": 0,
  "columns": [],
@@ -10,14 +11,14 @@
  "idx": 1,
  "is_standard": "Yes",
  "letterhead": null,
- "modified": "2025-07-01 15:58:09.455455",
+ "modified": "2025-07-03 16:08:39.495319",
  "modified_by": "Administrator",
  "module": "Ecommerce Product Catalog",
  "name": "Catagory Sales Report",
  "owner": "Administrator",
  "prepared_report": 0,
- "query": "SELECT \n    p.category AS \"Category:Link/Category:200\",\n    SUM(t.quantity) AS \"Total Quantity:Int:120\",\n    SUM(t.price) AS \"Total Sales:Currency:150\"\nFROM \n    `tabTransactions` t\nJOIN \n    `tabProduct` p ON t.product = p.name\nGROUP BY \n    p.category\nORDER BY \n    SUM(t.price) DESC",
- "ref_doctype": "Transactions",
+ "query": "SELECT\n    p.category AS \"Category:Link/Category:200\",\n    SUM(ti.quantity) AS \"Total Quantity Sold:Int:150\",\n    SUM(ti.quantity * ti.price) AS \"Total Sales Amount:Currency:150\"\nFROM\n    `tabCart Item` ti\nJOIN\n    `tabProduct` p ON ti.product = p.name\nGROUP BY\n    p.category\nORDER BY\n    SUM(ti.quantity * ti.price) DESC;",
+ "ref_doctype": "Transaction",
  "report_name": "Catagory Sales Report",
  "report_type": "Query Report",
  "roles": [

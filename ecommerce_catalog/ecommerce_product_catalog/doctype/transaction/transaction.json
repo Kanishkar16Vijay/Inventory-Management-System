@@ -2,23 +2,24 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "T.####",
- "creation": "2025-06-16 15:56:22.702158",
+ "creation": "2025-07-03 11:47:32.101810",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_5fxt",
+  "section_break_mukd",
   "amended_from",
-  "product",
   "member",
+  "product_table",
+  "section_break_zvup",
+  "total_items",
+  "price",
   "payment_method",
-  "column_break_fwud",
-  "address",
-  "quantity",
-  "price"
+  "column_break_ltal",
+  "address"
  ],
  "fields": [
   {
-   "fieldname": "section_break_5fxt",
+   "fieldname": "section_break_mukd",
    "fieldtype": "Section Break"
   },
   {
@@ -26,42 +27,41 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Transactions",
+   "options": "Transaction",
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
   },
   {
-   "fieldname": "product",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Product",
-   "options": "Product",
-   "reqd": 1
-  },
-  {
    "fieldname": "member",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Member",
-   "options": "Members",
-   "reqd": 1
+   "options": "Members"
   },
   {
-   "fieldname": "quantity",
+   "fieldname": "section_break_zvup",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_items",
    "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Quantity",
-   "reqd": 1
+   "label": "Total Items",
+   "read_only": 1
   },
   {
    "fieldname": "price",
-   "fieldtype": "Currency",
+   "fieldtype": "Int",
    "label": "Price",
    "read_only": 1
   },
   {
-   "fieldname": "column_break_fwud",
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "label": "Payment Method",
+   "options": "COD\nUPI\nCard"
+  },
+  {
+   "fieldname": "column_break_ltal",
    "fieldtype": "Column Break"
   },
   {
@@ -71,20 +71,20 @@
    "label": "Address"
   },
   {
-   "fieldname": "payment_method",
-   "fieldtype": "Select",
-   "label": "Payment Method",
-   "options": "COD\nUPI\nCard"
+   "fieldname": "product_table",
+   "fieldtype": "Table",
+   "label": "Cart Items",
+   "options": "Cart Item"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-01 17:31:47.197130",
+ "modified": "2025-07-03 17:35:29.282803",
  "modified_by": "Administrator",
  "module": "Ecommerce Product Catalog",
- "name": "Transactions",
+ "name": "Transaction",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [

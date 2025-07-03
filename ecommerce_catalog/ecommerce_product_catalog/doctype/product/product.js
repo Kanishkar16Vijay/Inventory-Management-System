@@ -1,11 +1,5 @@
 frappe.ui.form.on("Product", {
     refresh: function (frm) {
-        // Always show Create Transaction button
-        frm.add_custom_button('Create Transaction', () => {
-            frappe.new_doc('Transactions', {
-                product: frm.doc.name
-            });
-        });
 
         const member_id = localStorage.getItem("member_id");
         console.log("Fetched from localStorage:", member_id);
